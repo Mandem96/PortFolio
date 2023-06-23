@@ -3,7 +3,7 @@
 
 
 
-  *{
+  *, ::before, ::after{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -124,12 +124,12 @@ margin-bottom: 20px;
 }
 
 .containero {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    left: 50%;
-    top: 70%;
-    transform: translate(-50%, -50%);
+    width: 298px;
+    height: 66px;
+    /* position: absolute; */
+    /* left: 50%; */
+    /* top: 70%; */
+    /* transform: translate(-50%, -50%); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,6 +149,9 @@ margin-bottom: 20px;
     border: 1px solid #91C9FF;
     outline: none;
     transition: 1s ease-in-out;
+    position: relative;
+    top: 5rem;
+    left: 30rem;
   }
   
   svg {
