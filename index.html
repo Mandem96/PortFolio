@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/evo-calendar.min.css">
+    <link rel="stylesheet" href="./src/evo-calendar.midnight-blue.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -127,6 +130,7 @@
      </div> -->
 
 
+
      <div class="angry-grid">
         
       <div id="item-0"></div>
@@ -216,12 +220,69 @@
         
         
       </div>
+     
+
+   <div class = "cal">
+    <div id="calendar"></div>
+   </div>
+      
 
 
 
 
-    
 
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+     <script src="./src/evo-calendar.min.js"></script>
     <script src="/script.js"></script>
+
+
+<script>
+$(document).ready(function() {
+    $('#calendar').evoCalendar({
+
+      theme: "Midnight Blue",
+
+       calendarEvents: [
+      {
+        id: 'event1', // Event's ID (required)
+        name: "New Year", // Event name (required)
+        date: "January/1/2020", // Event date (required)
+        type: "holiday", // Event type (required)
+        description: "The first day of the month and i'm very happy about it", // Event description
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        name: "Vacation Leave",
+        badge: "06/20 - 06/23", // Event badge (optional)
+        date: ["June/20/2023", "June/23/2023"], // Date range
+        description: "Vacation leave for 3 days.", // Event description (optional)
+        type: "event",
+        color: "#63d867" // Event custom color (optional)
+      }
+    ]
+
+       
+    })
+})
+
+
+
+</script>
+
+
+
+
+
+
+
+
 </body>
 </html>
