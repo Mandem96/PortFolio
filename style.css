@@ -226,7 +226,10 @@ margin-bottom: 20px;
     margin: 300px auto;
 }
 
-
+.cal h1{
+    text-align: center;
+    margin-top: 4rem;
+}
 
 .slide img{
     width: 800px;
@@ -595,7 +598,7 @@ font-size: 16px;
 position: absolute;
 left: 50%;
 top: 50%;
-transform: translate(-50%, 40%);
+transform: translate(-50%, 20%);
 
  }
 
