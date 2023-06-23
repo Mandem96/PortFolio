@@ -18,6 +18,7 @@ body{
     /* height: 100vh; */
     font-family: 'Poppins';
     padding-bottom: 50px;
+    
  
 }
 
@@ -324,4 +325,264 @@ background: #B2A4FF
 }
 #radio4:checked~ .navigation-auto .auto-btn4{
  background: #B2A4FF;
+} 
+
+/* 
+.image1 img{
+    width: 800px;
+} 
+
+
+.image2 img{
+    width: 800px;
+} 
+
+
+.first-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+
+.second-content{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+
+.third-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+
+
+
+.imagetxt p{
+width:600px;
+font-size: 16px;
 }
+
+
+.image3 img{
+    width:800px;
+} */
+
+
+
+.angry-grid {
+    display: grid; 
+  
+     
+   
+  
+    grid-template-areas: 
+    'image-two image-two first-image first-image first-image first-image'
+    'three three three three four four'
+     'five five six six six six';
+    
+  height: 100%;
+  
+    
+  }
+   
+  #item-0 {
+  grid-area: first-image;
+    background:url('./asset/medium-shot-woman-holding-tablet.jpg'); 
+    height: 40rem;
+     background-size: cover; 
+    
+  
+  }
+  #item-1 {
+     grid-area: image-two;
+    background-color:var(--pure-black);
+     color:var(--pure-white); 
+   
+    
+  
+  }
+  
+  .side-verticle-line{
+    width: 6px;
+    height: 304px;
+    background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    position: absolute;
+    left: 0%;
+  }
+
+  #item-2 {
+    grid-area: three;
+    height: 40rem;
+   background: url(./asset/focused-young-businesswoman-using-laptop.jpg);
+   background-size: cover;
+   
+  
+   
+ }
+ #item-3 {
+ grid-area: four;
+ height: 40rem;
+ /* border: 1px solid black; */
+   background-color: var(--pure-white); 
+ 
+ }
+ 
+ #item-4 {
+    grid-area: five;
+   background-color: var(--pure-white); 
+   height: 40rem;
+ 
+   
+ }
+ #item-5 {
+   grid-area: six;
+   background: url('./asset/group-afro-americans-working-together.jpg');
+   
+   background-size: cover;
+   height: 40rem; 
+   
+   
+ }
+ 
+ .item-1-heading h1{
+   letter-spacing: 4.17px;;
+   width: 387px;
+   font-size: 40px;
+   font-family: var(--small-text);
+   text-transform: uppercase;
+ }
+ .item-1-content{
+   display: flex;
+   padding-top: 10rem;
+   
+ }
+ 
+ .item-1-paragraph{
+   font-family: var(--small-paragraph);
+   font-size: 15px;
+   line-height: 25px;
+   color:var(--light-gray);
+   width: 380px;
+   padding-top: 1.313rem;
+  
+ }
+ .item-1-last-section{
+   display: flex;
+   gap: 1.5rem;
+   padding-top: 1.7rem;
+ }
+ 
+ .item-1-description{
+  margin: 0 auto;
+ }
+ 
+ .item-1-small-span{
+   text-transform: uppercase;
+   font-size: 12px;
+   font-family: var(--small-text);
+   font-weight: 700;
+ }
+ .item-1-small-span:hover{
+   text-decoration: underline;
+   cursor: pointer;
+ }
+ 
+ .item3-content{
+   display: table;
+   margin: 0 auto;
+   padding-top: 8.5rem;
+ }
+ 
+ .item3-content-heading h1{
+   color: var(--pure-black);
+   font-family: var(--small-text);
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 40px; 
+   width: 300px;
+   letter-spacing: 4.17px;
+ }
+ 
+ .item3-content-paragraph{
+   color:var(--light-gray);
+   font-family: var(--small-paragraph);
+   line-height: 25px;
+   font-size: 15px;
+   width: 380px;
+   padding-top: 2rem;
+ }
+ 
+ 
+ .item3-last-section{
+   display: flex;
+   gap: 1.5rem;
+   padding-top: 2rem;
+  
+ }
+ 
+ .item3-last-section-span{
+   font-family: var(--small-text);
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 12px;
+ }
+ 
+ .item3-last-section-span:hover{
+   text-decoration: underline;
+   cursor: pointer;
+ }  
+ 
+ 
+ 
+ .item4-content{
+   display: table;
+   margin: auto;
+   padding-top:10rem;
+ 
+   
+ }
+ 
+ .item4-content-heading h1{
+   color: var(--pure-black);
+   font-family: var(--small-text);
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 40px; 
+   width: 380px;
+   letter-spacing: 4.17px;
+ }
+ 
+ .item4-content-paragraph{
+   color:var(--light-gray);
+   font-family: var(--small-paragraph);
+   line-height: 25px;
+   font-size: 15px;
+   width: 380px;
+   padding-top: 2rem;
+ }
+ 
+ 
+ .item4-last-section{
+   display: flex;
+   gap: 1.5rem;
+   padding-top: 2rem;
+  
+ }
+ 
+ .item4-last-section-span{
+   font-family: var(--small-text);
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 12px;
+ }
+ 
+ .item4-last-section-span:hover{
+   text-decoration: underline;
+   cursor: pointer;
+ }
+ 
