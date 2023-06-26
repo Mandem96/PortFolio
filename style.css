@@ -11,17 +11,26 @@
 
 
 body{
-  
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* height: 100vh; */
+
     font-family: 'Poppins';
     padding-bottom: 50px;
     
  
 }
 
+.box p{
+  font-size: 14px;
+  text-align: center;
+width: 350px;
+padding-block: 20px;
+
+
+}
+
+
+.box span{
+  text-align: right;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -178,21 +187,8 @@ margin-bottom: 20px;
     color: white;
     font-size: 18px;
     font-weight: 100;
+
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -600,38 +596,133 @@ font-size: 16px;
     position: relative;
  
   }
-  
-  .cards {
-    margin-top: 10rem;
+
+  /* .card-details{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-  }
+    justify-content: center;
+    gap: 2rem;
+
+  } */
   
-  .card1 {
-    position: relative;
-    
-  }
+.card-details-img img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* position: absolute; */
+}
+
+/* .card{
+  width: 380px;
+  height: 6rem;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.details-text p{
+  font-size: 14px;
+} 
+
+
+.details-text span{
+
+color: rgb(76, 73, 73);
+} 
+
+
+.card2-img img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.card2-details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+} 
+
+.card2{
+  width: 380px;
+  height: 6rem;
+  background: transparent;
+  border-radius: 10px;
+  display: flex;
+    justify-content: center;
+   cursor: pointer;
+    align-items: center
+}
+
+.card3-details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+} 
+
+.card3{
+  width: 380px;
+  height: 6rem;
+  background: transparent;
+  border-radius: 10px;
+  display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card-details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+} 
+
+.Awwward{
+ background: white;
+ box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card{
+  width: 380px;
+  height: 6rem;
+  border-radius: 10px;
+  display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ratings img{
+width: 100px;
+
+}
+
+.testominals{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   
-  .box {
-    position: relative;
-    width: 380px;
-    height: 200px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  }
+}
+
+.into-det p{
+  width: 400px;
+  font-size: 14px;
+  position: relative;
+  bottom: 2rem;
+}
+
+
+
+
+.side{
   
-  .circle {
-    position: absolute;
-    z-index: 9999;
-  }
-  
-  .circle img {
-    outline: none;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-  }
-  
-  
+
+}
