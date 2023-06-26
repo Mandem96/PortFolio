@@ -22,8 +22,8 @@ card2.addEventListener('click', function() {
   card.classList.remove('Awwward');
   card2.classList.add('Awwward');
   card3.classList.remove('Awwward');
-  sideHeading.textContent = 'New Heading';
-  sideParagraph.textContent = 'New Content';
+  sideHeading.textContent = 'laborantem describitur eius';
+  sideParagraph.textContent = `Checkmate... So you two dig up, dig up dinosaurs? They're using our own satellites against us. And the clock is ticking. Checkmate... God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager? Remind me to thank John for a lovely weekend. God help us, we're in the hands of engineers. God help us, we're in the hands of engineers. They're using our own satellites against us. And the clock is ticking. My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard!`;
   
   
 });
@@ -32,8 +32,10 @@ card3.addEventListener('click', function() {
   card.classList.remove('Awwward');
   card2.classList.remove('Awwward');
   card3.classList.add('Awwward');
-  sideHeading.textContent = 'New Heading';
-  sideParagraph.textContent = 'New Content';
+    sideHeading.textContent = 'Hey, you know how I';
+  sideParagraph.textContent = `They're using our own satellites against us. And the clock is ticking. Must go faster. God help us, we're in the hands of engineers. My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard!
+
+  Hey, you know how I'm, like, always trying to save the planet? Here's my chance. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. You really think you can fly that thing? Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists.`;
   
   console.log('changed');
 });
