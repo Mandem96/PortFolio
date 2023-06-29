@@ -107,8 +107,74 @@ h1 .logo a{
 a {
   text-decoration: none;
 }
+.referial {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10rem;
+    height: 75vh;
+  }
+
+ 
+  
+  .referial-card {
+    border-radius: 1.15rem;
+    width: 600px;
+    height: 150px;
+    background: red;
+    transition: height 0.3s;
+    overflow: hidden;
+    /*change*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+  }
+  
+  .referial-card:hover {
+    height: 250px;
+  }
+  
+  .details {
+    display: none;
+    padding: 10px;
+  }
+  
+  .referial-card:hover .details {
+    display: block;
+  }
+  
+  .hay{
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+  }
+
+  .card-image{
+    position: absolute;
+ 
+  }
+
+  .card-image img{
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 50%;
+  }
 
 
 
+  .arrow img{
+    width: 30px;
+  }
 
 
+  .arrow img {
+    transition: transform 0.5s;
+  }
+  
+  .referial-card:hover .arrow img {
+    transform: rotate(180deg);
+  }
