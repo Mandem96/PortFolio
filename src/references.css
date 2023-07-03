@@ -118,19 +118,19 @@ a {
  
   
   .referial-card {
-    border-radius: 1.15rem;
+    /* border-radius: 1.15rem;
     width: 600px;
     height: 150px;
     background: red;
     transition: height 0.3s;
-    overflow: hidden;
+    overflow: hidden; */
     /*change*/
-     display: flex; 
+     /* display: flex; 
    
      justify-content: center;
     align-items: center;
-    padding: 0 2em; 
-  }
+    padding: 0 2em;  */
+  /* }
   .cardf{
     display: flex;
     flex-direction: column;
@@ -188,4 +188,56 @@ a {
   
   .referial-card:hover .arrow img {
     transform: rotate(180deg);
+  } */}
+
+
+  .referialCard{
+    border-radius: 1.15rem;
+    width: 600px;
+    height: 150px;
+    background: red;
+    transition: height 0.3s;
+    overflow: hidden
+  } 
+
+  .referialImage img{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .arrowUp img{
+    width: 30px;
+    transition: transform 0.5s;
+  }
+
+  .referialDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  } 
+
+  .referialCard:hover{
+    height: 300px;
+    cursor:pointer;
+  }
+
+  .referialDetailss{
+    display: none;
+  }
+
+  .referialCard:hover .referialDetailss {
+    display: block;
+  }
+
+  .referialCard:hover .arrowUp  img {
+    transform: rotate(180deg);
+  } 
+
+  .hay{
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
   }
