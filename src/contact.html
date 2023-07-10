@@ -26,27 +26,67 @@
 
   </nav>
 
-<div class="contact">
-    <div class="firstItem">
-        <img src="../asset/happy-afro-american-secretary-discusses-working-issues-with-coworker-via-smartphone-receives-call-from-manager-raises-hand-laughs-joyfully-informs-about-stage-work.jpg" alt="">
-    </div>
 
-    <div class="secondItem">
-   <div class ="heading">
-    <h1>Contact Me</h1>
-   </div>
 
-   <form action="">
-       <label for="firstName">First Name</label>
-       <input type="text" name="Full Name" placeholder="Enter Name">
-       <label for="email">Email</label>
-       <input type="email" name="email" placeholder="Enter Email">
-   </form>
-    </div>
-</div>
+   <div class="bigContainer">
+    <div class="text">Contact Me</div>
+    <form id="myForm">
+      <div class="form-row">
+        <div class="input-data">
+          <input type="text" id="firstName" required>
+          <div class="underline"></div>
+          <label for="firstName">First Name</label>
+        </div>
+        <div class="input-data">
+          <input type="email" id="email" required>
+          <div class="underline"></div>
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="input-data">
+          <input type="tel" id="phoneNumber" required>
+          <div class="underline"></div>
+          <label for="phoneNumber">Phone Number</label>
+        </div>
+        <div class="input-data">
+          <input type="text" id="subject" required>
+          <div class="underline"></div>
+          <label for="subject">Subject</label>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="input-data textarea">
+          <textarea id="message" cols="30" rows="10" required></textarea>
+          <div class="underline"></div>
+          <label for="message">Write your message</label>
+        </div>
+      </div>
+      <div class="form-row submit-btn">
+        <div class="input-data">
+          <div class="inner">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </div>
+      </div>
+      <div id="errorMessage" style="color: red;">Please fill in all required fields</div>
+    </form>
     
 
 
+
+
+  
+<script src="./contact.js"></script>
+
+<script src="script.js"></script>
+
+
+ 
+
+
+ 
 
 
  
@@ -58,7 +98,7 @@
 
 
 
-
+  <script src="./contact.js"></script>
  <script src="../script.js"></script>
 </body>
 </html>
