@@ -28,6 +28,14 @@ padding-block: 20px;
 }
 
 
+.logo{
+  
+}
+.logo img{
+  width: 40px;
+}
+
+
 .container{
     max-width: 1200px;
     margin: 0 auto;

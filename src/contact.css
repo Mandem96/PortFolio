@@ -58,6 +58,9 @@ padding-block: 20px;
   transition: all 0.3s ease-in-out;
 }
 
+.logo img{
+  width: 40px;
+}
 
 h1 .logo a{
   font-size: 25px;
